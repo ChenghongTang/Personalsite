@@ -55,7 +55,7 @@ footer {
 
 .square{
   text-align: center; 
-  height: 150px;
+  height: 14vh;
   width:100%;
   background-color: rgb(247, 247, 247);
   box-shadow: 10px 10px 15px lightblue;
@@ -65,38 +65,55 @@ footer {
 #Name{
   margin-top: 1%;
   position: absolute;
-  left:39.5%;
-
-
+  
+  text-align: center; 
+width: 100%;
   font-family: 'Rubik Glitch', cursive;
   font-size: 25pt;
   top:0%;
-  color:#4169E1;
-  text-shadow: 0 0 8px #4169E1;
-  animation: shine 2s forwards, flicker 3s infinite;
+
   /* z-index: 1; */
 
   /* 0 0 0.6rem #00a6ff, 0 0 1.5rem #00a6ff,
       -0.2rem 0.1rem 1rem #00a6ff, 0.2rem 0.1rem 1rem #00a6ff,
       0 -0.5rem 2rem #4169E1, 0 0.5rem 3rem #4169E1; */
 }
+#NameDetail{
+  color:#4169E1;
+  text-shadow: 0 0 8px #4169E1;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
 
-#subtitle1{
+#subtitleBox{
   position: absolute;
+  top:9%;
+  
+  width: 100%;
+}
+#subtitle1{
+  display: inline-block;
+  /* float: left; */
   font-family: 'Rubik Glitch', cursive;
   font-size: 15pt;
-  top:12%;
-  left:40%;
+  margin-left: 0%;
+  /* left:40%; */
   color:gray;
 }
 #subtitle2{
-  position: absolute;
+  display: inline-block;
   font-family: 'Rubik Glitch', cursive;
   font-size: 15pt;
-  top:12%;
-  left:54%;
+  margin-left: 5%;
   color:gray;
 }
+
+
+#plusIcon{
+margin-left: 30%;
+}
+
+
+
 
 
 /* .Project1{
