@@ -8,6 +8,31 @@
 /* } */ 
 /* https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design */
 
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
 #sketchholder{
   position:fixed;
 
@@ -29,15 +54,22 @@ footer {
 
 
 .square{
+  text-align: center; 
+  height: 150px;
+  width:100%;
+  background-color: rgb(247, 247, 247);
   box-shadow: 10px 10px 15px lightblue;
+  
 }
 
 #Name{
+  margin-top: 1%;
   position: absolute;
-  font-family: Rowdies-Light, sans-serif;
+  left:39.5%;
+
+
+  font-family: 'Rubik Glitch', cursive;
   font-size: 25pt;
-  left:40%;
-  font-family: 'Rock 3D', cursive;
   top:0%;
   color:#4169E1;
   text-shadow: 0 0 8px #4169E1;
@@ -51,7 +83,7 @@ footer {
 
 #subtitle1{
   position: absolute;
-  font-family: Rowdies-Light, sans-serif;
+  font-family: 'Rubik Glitch', cursive;
   font-size: 15pt;
   top:12%;
   left:40%;
@@ -59,7 +91,7 @@ footer {
 }
 #subtitle2{
   position: absolute;
-  font-family: Rowdies-Light, sans-serif;
+  font-family: 'Rubik Glitch', cursive;
   font-size: 15pt;
   top:12%;
   left:54%;
