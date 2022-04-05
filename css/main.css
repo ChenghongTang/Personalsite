@@ -55,7 +55,7 @@ footer {
 
 .square{
   text-align: center; 
-  height: 14vh;
+  height: 140px;
   width:100%;
   background-color: rgb(247, 247, 247);
   box-shadow: 10px 10px 15px lightblue;
@@ -95,22 +95,28 @@ width: 100%;
   /* float: left; */
   font-family: 'Rubik Glitch', cursive;
   font-size: 15pt;
-  margin-left: 0%;
+  
+
   /* left:40%; */
   color:gray;
+
 }
 #subtitle2{
   display: inline-block;
   font-family: 'Rubik Glitch', cursive;
   font-size: 15pt;
   margin-left: 5%;
-  color:gray;
+
+  color:gray; 
 }
 
 
 #plusIcon{
 margin-left: 30%;
+opacity:0.6;
 }
+
+
 
 
 
